@@ -4,3 +4,8 @@ for ch in g:
     if g.count(ch)==1:
         count+=1
     print(count)
+
+output:
+aadbecbd
+1
+2
