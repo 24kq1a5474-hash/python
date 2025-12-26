@@ -1,0 +1,10 @@
+Enter speed of 3 horses:1 2 3 distance=int (input("Enter distance:"))
+speeds=list(map(int,input("Enter speed of 3 horses:").split()))
+max_speed=max(speeds)
+min_time=distance/max_speed
+print("minumum time requrired",min_time)
+
+output:
+Enter distance:100
+Enter speed of 3 horses: 1 2 3
+minumum time requrired 33.333333333333336
