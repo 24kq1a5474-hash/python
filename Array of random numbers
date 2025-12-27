@@ -3,3 +3,9 @@ even=[x for x in arr if x%2==0]
 odd=[x for x in arr if x%2!=0]
 result=even+odd
 print(result)
+
+output:
+2 5 6 8 9 3
+[2, 6, 8, 5, 9, 3]
+
+
