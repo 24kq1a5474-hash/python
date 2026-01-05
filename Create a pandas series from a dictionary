@@ -1,0 +1,18 @@
+import pandas as pd
+student_age = {
+    'Nani':20,
+    'poji':18,
+    'Akki':19,
+    'Nikki':19
+}
+age_Series = pd.Series(student_age)
+print("\nPandas Series from Dictionary:")
+print(age_Series)
+
+output:
+Pandas Series from Dictionary:
+Nani     20
+poji     18
+Akki     19
+Nikki    19
+dtype: int64
