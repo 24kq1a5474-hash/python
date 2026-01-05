@@ -1,0 +1,17 @@
+import pandas as pd
+data = {
+    'Name':['Nani','poji','akki','nikki'],
+    'Age':[20,18,19,19],
+    'Marks':[85,98,74,99]
+}
+df=pd.DataFrame(data)
+print("\nPandas DataFrame:")
+print(df)
+
+output:
+Pandas DataFrame:
+    Name  Age  Marks
+0   Nani   20     85
+1   poji   18     98
+2   akki   19     74
+3  nikki   19     99
